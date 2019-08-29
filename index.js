@@ -1,7 +1,6 @@
 const drums = document.querySelectorAll('.drum')
 
 for (let i = 0; i < drums.length; i++) {
-  console.log(this.innerHTML)
   drums[i].addEventListener('click', function() {
     const button = this.innerHTML
     makeSound(button)
